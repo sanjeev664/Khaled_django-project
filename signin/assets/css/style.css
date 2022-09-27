@@ -1,0 +1,322 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background: #f5f5f5 !important;
+}
+.mb-85 {
+    margin-bottom: 85px;
+}
+.bg-primary {
+    background: #33d0b5 !important;
+}
+/*****content with form css****/
+.errors {
+    color: #fe0000;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.error {
+    color: #fe0000;
+}
+.section--heading h5 {
+    font-weight: 700;
+    font-size: 22px;
+    padding: 15px 0 10px;
+}
+.header .login {
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+.two--column {
+    padding: 20px 0 40px;
+}
+.account--form input::placeholder {
+    font-weight: normal;
+    font-size: 13px;
+}
+.account--form {
+    background: #33d0b5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.account--form h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border-bottom: 3px solid #fff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+.btn-grey {
+    background: #6c6c6c;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.btn-grey:hover {
+    background: #6c6c6c !important;
+    color: #fff !important;
+}
+.section--heading {
+    padding-top: 30px;
+}
+/* .form-check-input:checked[type=checkbox] {
+    background-image: url(../assets/images/form/tick.svg) !important;
+}
+.form-check-input:checked {
+    background-color: #fff;
+    border-color: #fff;
+} */
+
+.form-check label {
+    font-size: 13px;
+}
+
+/*****verify Email css****/
+
+.heading--verify h3 {
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.heading--verify p {
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.w-62 {
+    width: 62%;
+}
+.font-13 {
+    font-size: 13px;
+}
+
+/**** check list form *****/
+.form--list li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+.form--list li:after {
+    content: '';
+    display: block;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    left: -23px;
+    top: 0;
+    z-index: 1;
+}
+.form--list li {
+    position: relative;
+    padding-bottom: 25px;
+    padding-left: 20px;
+}
+.form--list li::marker {
+    color: #000;
+}
+
+#signinForm .form--list:before {
+    content: '';
+    display: block;
+    border: 1px solid #fff;
+    height: 88%;
+    line-height: 1;
+    background: #fff;
+    position: absolute;
+    left: 24px;
+}
+.form--list li:first-child:before {
+    height: 0;
+}
+.form--list li{
+    counter-increment: h3;
+  display: list-item;
+}
+.form--list li span:before {
+    content: counter(h3);
+    position: absolute;
+    color: #33d0b5;
+    position: absolute;
+    left: -13px;
+    z-index: 54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 3px;
+}
+.dropdown--icons li a:before {
+    content: '\f007';
+    font-family: 'fontawesome';
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+}
+.dropdown--icons li .profile:before {
+    content: '\f007';
+}
+.dropdown--icons li .sign-out:before {
+    content: '\f08b';
+}
+.dropdown--icons li .view-data:before {
+    content: '\f15c';
+}
+.dropdown--icons li a {
+    position: relative;
+    padding-left: 35px;
+}
+.login.dropdown-toggle:active, .login.dropdown-toggle.show {
+    background: transparent;
+    border: none;
+}
+/*****Bank section css****/
+
+.table tr {
+    margin-bottom: 17px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.table tr td {
+    width: 100%;
+    border: none;
+    background: #fff;
+}
+table.table th {
+    border: none;
+    color: #fff;
+}
+.table tr td .form-check {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+.table-bank tr td {
+    padding-left: 15px;
+}
+
+/*****process section css****/
+#signinForm .form--list {
+    position: relative;
+}
+#signinForm .form--list:before {
+    content: '';
+    display: block;
+    border: 1px solid #fff;
+    height: 88%;
+    line-height: 1;
+    background: #fff;
+    position: absolute;
+    left: 24px;
+}
+/*****thamkyou section css****/
+.thankyou--text p {
+    font-size: 18px;
+}
+/*****profile section css****/
+.font-600 {
+    font-weight: 600;
+}
+
+/******** Bank connect css **************/
+
+.bank-connect .dropdown-toggle::after {
+    border: none;
+}
+.connect-img {
+    text-align: center;
+}
+
+.bank-connect .dropdown-toggle::after {
+    border: none;
+}
+/******** Bank details css **************/
+
+.table.details-table tr:nth-child(even) {
+    margin-bottom: 10px;
+}
+
+.table.details-table tr {
+    margin-bottom: 0;
+}
+table.table.details-table tr:nth-child(even) td:not(:first-child) {
+    border-top: 2px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.table.details-table tr:nth-child(odd) td {
+    padding-bottom: 25px;
+}
+.table.details-table tr td {
+    font-size: 14px;
+}
+.height-100 {
+    min-height: 90vh;
+}
+@media screen and (min-width: 1024px) {
+.card-body.bg-white {
+    min-height: 730px;
+    max-height: 730px;
+}
+.w-200 {
+    width: 200px;
+}
+
+}
+
+@media screen and (min-width: 1366px) {
+    .container {
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+    .container.container-details {
+        max-width: 1300px;
+    }
+    .height-90 {
+        min-height: 90vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .py-xs-3 {
+        padding: 20px 10px 20px;
+    }
+    .verifyForm .px-xs-20 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+   .bank--details .d-xs-block {
+        display: block;
+    }
+}
+@media screen and (max-width: 510px) {
+    .logo--left {
+        display: flex;
+        flex-direction: column;
+    }
+    .verifyForm .w-62 {
+        width: 100%;
+    }
+    }
+@media screen and (max-width: 400px) {
+.px-xs-20 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.logo--left img {
+    width: 80px;
+}
+
+}
